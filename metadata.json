@@ -1,0 +1,6 @@
+{
+  "name": "Estética Dental - Dra. Sandra Rodríguez",
+  "description": "El más alto nivel de estética en tu sonrisa, combinando precisión técnica con una experiencia de spa relajante.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

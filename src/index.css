@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #17b9c7;
+    --primary-dark: #006971;
+    --primary-hover: #008ea0;
+    --surface: #f9f9ff;
+    --surface-warm: #f5f1ea;
+    --text-charcoal: #121c2c;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    color: #121c2c;
+    background-color: #f9f9ff;
+  }
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-script {
+  font-family: 'Great Vibes', 'Alex Brush', cursive;
+}
+
+.shadow-signature {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.shadow-signature-hover {
+  box-shadow: 0 18px 45px rgba(23, 185, 199, 0.12), 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.signature-border {
+  border-color: rgba(23, 185, 199, 0.2);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f4f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #c3d2d6;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #17b9c7;
+}
