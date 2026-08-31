@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { StatsRibbon } from './components/StatsRibbon';
@@ -110,6 +111,9 @@ export default function App() {
         onClose={() => setIsQuizOpen(false)}
         onBookResult={handleBookFromResult}
       />
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
